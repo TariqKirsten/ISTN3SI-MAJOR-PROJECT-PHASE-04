@@ -1,0 +1,157 @@
+﻿.center{
+    text-align:center;
+}
+
+.center-page
+{
+    width:300px;
+    height:300px;
+    position:relative;
+
+    top:-40px;
+    bottom:0;
+    left:0;
+    right:0;
+
+    margin:auto;
+}
+
+
+
+.space-vert
+{
+    margin-top:20px;
+}
+
+.footer-pos
+{
+    width:auto;
+    height:auto;
+    position:relative;
+
+    top:50px;
+    bottom:0;
+    left:0;
+    right:0;
+
+    margin:auto;
+}
+
+body
+{
+    padding-top: 80px;
+}
+/*products.aspx*/
+.proImg
+{
+    width:220px;
+    height:200px;
+    object-fit:cover;
+    
+}
+.proName
+{
+    font-size:15px;
+    font-weight: 600;
+    line-height: 15px;
+    text-transform:uppercase;
+    font-family:sans-serif;
+}
+
+.proDesc
+{
+    font-size:13px;
+    line-height: 17px;
+    font-family:sans-serif;
+}
+.proPrice
+{
+    font-size:14px;
+    line-height: 17px;
+    font-family:sans-serif;
+}
+
+/*ProductView.aspx*/
+.productNameView{
+    font-size:20px;
+    line-height:25px;
+    font-family:sans-serif;
+    font-weight:600;
+    color:#696e80;
+}
+
+.productPrice
+{
+    font-size:16px;
+    line-height: 17px;
+    font-family:sans-serif;
+    font-weight:600;
+    margin-top:10px;
+}
+.dividerBorder{
+    border-bottom:1px dashed #d5d6d8;
+    margin-bottom:20px;
+}
+
+.productNameViewCart{
+    font-size:15px;
+    line-height:25px;
+    font-family:sans-serif;
+    font-weight:600;
+    color:#696e80;
+}
+
+.productImageCart
+{
+    width:150px;
+    height:150px;
+    
+    
+}
+
+.pricegray{
+    font-size:15px;
+    font-family:sans-serif;
+    font-weight:400;
+    color: dimgray;
+}
+
+.pricegreen{
+    font-size:15px;
+    font-family:sans-serif;
+    font-weight:400;
+    color: #20bd99;
+}
+
+
+.buttonRemoveFromCart
+{
+    border-radius:3px;
+    outline:0;
+    margin-top:10px;
+    margin-bottom: 20px;
+    font-size:13px;
+    min-height:22px;
+    padding:10px 15px;
+    font-weight:500;
+    background-color:#ac2121;
+    border:1px solid #ac2121;
+    color: #fff;
+    width:150px;
+}
+
+.buttonBuyNow
+{
+    border-radius:3px;
+    outline:0;
+    margin-top:10px;
+    margin-bottom: 20px;
+    font-size:13px;
+    min-height:22px;
+    padding:10px 15px;
+    font-weight:500;
+    background-color:#14cda8;
+    border:1px solid #14cda8;
+    color: #fff;
+    width:100%;
+}
